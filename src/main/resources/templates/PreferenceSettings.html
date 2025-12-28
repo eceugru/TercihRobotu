@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="tr" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Tercih Ayarları</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .form-container {
+            max-width: 500px;
+            margin: 60px auto;
+            padding: 30px;
+            border: 2px solid #0dcaf0;
+            border-radius: 12px;
+            background-color: #f8f9fa;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+        }
+
+        .form-title {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 30px;
+            font-size: 1.5rem;
+        }
+
+        label {
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="form-container">
+        <div class="form-title">Tercih Ayarları</div>
+        <form action="#" th:action="@{/students/studentLoading}" method="post">
+            <!-- Ad -->
+            <div class="mb-3">
+                <input type="text"  name="firstName" placeholder="Adınız" class="form-control" />
+            </div>
+
+            <!-- Soyad -->
+            <div class="mb-3">
+                <input type="text"  name="lastName" placeholder="Soyadınız" class="form-control"  />
+            </div>
+
+            <!-- Exam Score -->
+            <div class="mb-3">
+                <label for="examScore" class="form-label">Exam Score</label>
+                <input type="number" class="form-control" id="examScore" name="examScore" placeholder="Puan giriniz" step="0.001" required>
+            </div>
+
+            <!-- Score Type -->
+            <div class="mb-3">
+                <label class="form-label d-block">Score Type</label>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="scoreType" id="sayisal" value="SAY" required>
+                    <label class="form-check-label" for="sayisal">SAY</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="scoreType" id="sozel" value="SÖZ">
+                    <label class="form-check-label" for="sozel">SÖZ</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="scoreType" id="esitAgirlik" value="EA">
+                    <label class="form-check-label" for="esitAgirlik">EA</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="scoreType" id="dil" value="DİL">
+                    <label class="form-check-label" for="esitAgirlik">DİL</label>
+                </div>
+            </div>
+
+            <!-- Ranking -->
+            <div class="mb-3">
+                <label for="ranking" class="form-label">Ranking</label>
+                <input type="number" class="form-control" id="ranking" name="ranking" placeholder="Sıralama" step="0.001" required>
+            </div>
+
+            <!-- Interest Areas -->
+            <div class="mb-3">
+                <label for="interestAreas" class="form-label">Interest Areas</label>
+                <input type="text" class="form-control" id="interestAreas" name="interestAreas" placeholder="Tıp, Mühendislik, Hukuk..." required>
+            </div>
+
+            <!-- Cinsiyet -->
+            <div class="mb-3">
+                <label class="form-label d-block">Gender</label>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="gender" id="genderMale" value="Erkek" required>
+                    <label class="form-check-label" for="genderMale">Erkek</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="gender" id="genderFemale" value="Kız">
+                    <label class="form-check-label" for="genderFemale">Kız</label>
+                </div>
+            </div>
+
+            <!-- Save Button -->
+            <div class="d-grid">
+                <button type="submit" class="btn btn-info text-white fw-bold">Kaydet</button>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

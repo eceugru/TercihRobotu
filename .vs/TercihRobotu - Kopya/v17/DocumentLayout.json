@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fzehr\\Downloads\\TercihRobotu - Kopya\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fzehr\\Downloads\\TercihRobotu - Kopya\\src\\main\\resources\\templates\\MainPage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main\\resources\\templates\\MainPage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fzehr\\Downloads\\TercihRobotu - Kopya\\src\\main\\java\\com\\nyym\\TercihRobotu\\TercihRobotuApplication.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main\\java\\com\\nyym\\TercihRobotu\\TercihRobotuApplication.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TercihRobotuApplication.java",
+              "DocumentMoniker": "C:\\Users\\fzehr\\Downloads\\TercihRobotu - Kopya\\src\\main\\java\\com\\nyym\\TercihRobotu\\TercihRobotuApplication.java",
+              "RelativeDocumentMoniker": "src\\main\\java\\com\\nyym\\TercihRobotu\\TercihRobotuApplication.java",
+              "ToolTip": "C:\\Users\\fzehr\\Downloads\\TercihRobotu - Kopya\\src\\main\\java\\com\\nyym\\TercihRobotu\\TercihRobotuApplication.java",
+              "RelativeToolTip": "src\\main\\java\\com\\nyym\\TercihRobotu\\TercihRobotuApplication.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
+              "WhenOpened": "2025-05-08T19:01:54.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.html",
+              "DocumentMoniker": "C:\\Users\\fzehr\\Downloads\\TercihRobotu - Kopya\\src\\main\\resources\\templates\\MainPage.html",
+              "RelativeDocumentMoniker": "src\\main\\resources\\templates\\MainPage.html",
+              "ToolTip": "C:\\Users\\fzehr\\Downloads\\TercihRobotu - Kopya\\src\\main\\resources\\templates\\MainPage.html",
+              "RelativeToolTip": "src\\main\\resources\\templates\\MainPage.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-08T18:57:41.768Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
